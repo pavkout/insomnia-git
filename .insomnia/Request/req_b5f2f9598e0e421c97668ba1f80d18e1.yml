@@ -1,0 +1,26 @@
+_id: req_b5f2f9598e0e421c97668ba1f80d18e1
+type: Request
+parentId: wrk_a17fb263774d44ab9a73ff6c9e3c999c
+modified: 1737992186127
+created: 1737992174222
+url: facebook.com
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/10.2.0-beta.4
+authentication: {}
+preRequestScript: null
+metaSortKey: -1737992174222
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
