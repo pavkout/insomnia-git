@@ -4,6 +4,7 @@ meta:
   id: wrk_398a621b5cbe45e9ace0668430d47411
   created: 1742230949516
   modified: 1742230949516
+  description: ""
 cookieJar:
   name: Default Jar
   meta:
@@ -17,3 +18,13 @@ environments:
     created: 1742230949520
     modified: 1742230949520
     isPrivate: false
+  subEnvironments:
+    - name: "Shared "
+      meta:
+        id: env_5ec51a4b38e24996a234db381de9fd65
+        created: 1756405106553
+        modified: 1756405115247
+        isPrivate: false
+        sortKey: 1756405106553
+      data:
+        s: s
