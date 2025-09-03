@@ -5,6 +5,28 @@ meta:
   created: 1742230949516
   modified: 1742230949516
   description: ""
+collection:
+  - url: ""
+    name: New Request
+    meta:
+      id: req_50db7e286eb9402cba2f4862ec6360f6
+      created: 1756895844488
+      modified: 1756895844488
+      isPrivate: false
+      description: ""
+      sortKey: -1756895844488
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.5.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
 cookieJar:
   name: Default Jar
   meta:
