@@ -17,9 +17,9 @@ collection:
       sortKey: -1756999776145
     method: GET
     headers:
-      - name: User-Agent
+      - id: pair_36ee08b0de344544a40f62fb67c65e3f
+        name: User-Agent
         value: insomnia/11.5.0
-        id: pair_36ee08b0de344544a40f62fb67c65e3f
       - id: pair_21e6ea46f16f4b8c8a06d9781e3b30f1
         name: foo
         value: bar1
