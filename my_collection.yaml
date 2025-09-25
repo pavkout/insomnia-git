@@ -19,17 +19,10 @@ collection:
     headers:
       - name: User-Agent
         value: insomnia/11.5.0
-        id: pair_36ee08b0de344544a40f62fb67c65e3f
-      - id: pair_21e6ea46f16f4b8c8a06d9781e3b30f1
-        name: foo
+      - name: foo
         value: bar1
-        description: ""
-        disabled: false
-      - id: pair_952ecf322d8a477dafd81a9355a76643
-        name: foo
+      - name: foo
         value: bar2
-        description: ""
-        disabled: true
     settings:
       renderRequestBody: true
       encodeUrl: true
