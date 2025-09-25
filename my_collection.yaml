@@ -38,6 +38,27 @@ collection:
         send: true
         store: true
       rebuildPath: true
+  - url: ""
+    name: New Request
+    meta:
+      id: req_4a969d1ace704217a7d0e3168ef34cf6
+      created: 1758762852905
+      modified: 1758762852905
+      isPrivate: false
+      description: ""
+      sortKey: -1758762852906
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.0-beta.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
 cookieJar:
   name: Default Jar
   meta:
