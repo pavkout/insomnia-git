@@ -43,14 +43,23 @@ collection:
     meta:
       id: req_4a969d1ace704217a7d0e3168ef34cf6
       created: 1758762852905
-      modified: 1758762852905
+      modified: 1758804772439
       isPrivate: false
       description: ""
       sortKey: -1758762852906
     method: GET
+    parameters:
+      - id: pair_1bab995b99d14a0e9de707b01eb3a83a
+        name: ""
+        value: ""
+        description: ""
+        disabled: false
     headers:
       - name: User-Agent
         value: insomnia/11.6.0-beta.0
+    scripts:
+      preRequest: console.log('asd')
+      afterResponse: console.log("sdf")
     settings:
       renderRequestBody: true
       encodeUrl: true
