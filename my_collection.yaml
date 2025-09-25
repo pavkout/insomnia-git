@@ -17,19 +17,12 @@ collection:
       sortKey: -1756999776145
     method: GET
     headers:
-      - id: pair_36ee08b0de344544a40f62fb67c65e3f
-        name: User-Agent
+      - name: User-Agent
         value: insomnia/11.5.0
-      - id: pair_21e6ea46f16f4b8c8a06d9781e3b30f1
-        name: foo
+      - name: foo
         value: bar1
-        description: ""
-        disabled: false
-      - id: pair_952ecf322d8a477dafd81a9355a76643
-        name: foo
+      - name: foo
         value: bar2
-        description: ""
-        disabled: true
     settings:
       renderRequestBody: true
       encodeUrl: true
@@ -43,20 +36,21 @@ collection:
     meta:
       id: req_4a969d1ace704217a7d0e3168ef34cf6
       created: 1758762852905
-      modified: 1758804812112
+      modified: 1758804847620
       isPrivate: false
       description: ""
       sortKey: -1758762852906
     method: GET
     parameters:
-      - id: pair_1bab995b99d14a0e9de707b01eb3a83a
-        name: ""
+      - name: ""
         value: ""
-        description: ""
         disabled: false
+        id: pair_1bab995b99d14a0e9de707b01eb3a83a
     headers:
       - name: User-Agent
         value: insomnia/11.6.0-beta.0
+      - name: test
+        value: test
     settings:
       renderRequestBody: true
       encodeUrl: true
@@ -76,7 +70,7 @@ environments:
   meta:
     id: env_9ba2d71314b372eebf0d68aa9c050c71f5dc9add
     created: 1742230949520
-    modified: 1742230949520
+    modified: 1758804987092
     isPrivate: false
   subEnvironments:
     - name: New Environment
