@@ -1,0 +1,234 @@
+type: collection.insomnia.rest/5.0
+name: My Collection
+meta:
+  id: wrk_f6e46540a0914c3b8e76a6e319d068e1
+  created: 1758905625903
+  modified: 1758905625903
+  description: ""
+collection:
+  - url: https://api.insomniaapp.com/v1/organizations/123e4567-e89b-12d3-a456-426614174000/projects
+    name: Post
+    meta:
+      id: req_2ce3bf70a3c14cd88c0bc46205a0ef3c
+      created: 1758665217703
+      modified: 1758665333927
+      isPrivate: false
+      description: ""
+      sortKey: -1758665217703
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "Marketing Website",
+        	"visibility": "private",
+        	"tags": [
+        		"frontend",
+        		"remix",
+        		"landing"
+        	],
+        	"settings": {
+        		"autoDeploy": true,
+        		"branch": "main",
+        		"region": "eu-central-1"
+        	},
+        	"metadata": {
+        		"createdBy": "user-98765",
+        		"notes": "Initial project setup with all integrations"
+        	}
+        }
+    parameters:
+      - name: include
+        value: members
+        disabled: false
+      - name: sort
+        value: createdAt
+        disabled: false
+      - name: limit
+        value: "50"
+        disabled: false
+      - name: page
+        value: "2"
+        disabled: false
+    headers:
+      - name: Authorization
+        value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.fake.token.value
+      - name: Content-Type
+        value: application/json
+      - name: Accept
+        value: application/json
+      - name: X-Request-ID
+        value: 9c2b8a20-5c44-11ee-8c99-0242ac120002
+      - name: X-Correlation-ID
+        value: cor-0011223344
+      - name: User-Agent
+        value: Insomnia/2025.1.0 (macOS)
+      - name: X-Custom-Header
+        value: CustomValue
+      - name: Cookie
+        value: sessionid=abcdef1234567890; theme=dark
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: https://api.insomniaapp.com/v1/organizations/123e4567-e89b-12d3-a456-426614174000/projects
+    name: Get
+    meta:
+      id: req_e0cb05a259d549a4888ba3305ffd84c3
+      created: 1758665323949
+      modified: 1758665339702
+      isPrivate: false
+      description: ""
+      sortKey: -1758665323949
+    method: GET
+    parameters:
+      - name: search
+        value: website
+        disabled: false
+      - name: limit
+        value: "25"
+        disabled: false
+      - name: page
+        value: "1"
+        disabled: false
+      - name: sort
+        value: -createdAt
+        disabled: false
+    headers:
+      - name: Authorization
+        value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.fake.token.value
+      - name: Accept
+        value: application/json
+      - name: X-Client-Version
+        value: 1.2.3
+      - name: X-Debug-Mode
+        value: "true"
+      - name: Cookie
+        value: sessionid=abcdef1234567890; locale=en-US
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: https://api.insomniaapp.com/v1/projects/789e1234-e89b-12d3-a456-426614174999
+    name: Put
+    meta:
+      id: req_0558da8320654818b7d890e7416de93f
+      created: 1758665362677
+      modified: 1758665371054
+      isPrivate: false
+      description: ""
+      sortKey: -1758665362677
+    method: PUT
+    body:
+      mimeType: application/json
+      text: '{     "name": "Marketing Website v2",     "visibility":
+        "public",     "tags": ["updated", "marketing",
+        "release2025"],     "settings": {       "autoDeploy":
+        false,       "branch": "develop",       "region":
+        "us-east-1"     },     "metadata": {       "updatedBy":
+        "user-98765",       "changelog": "Enabled public visibility and switched
+        branch to develop"     }   }'
+    parameters:
+      - name: notify
+        value: "true"
+        disabled: false
+      - name: forceUpdate
+        value: "1"
+        disabled: false
+    headers:
+      - name: Authorization
+        value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.fake.token.value
+      - name: Content-Type
+        value: application/json
+      - name: Accept
+        value: application/json
+      - name: X-Request-ID
+        value: f47ac10b-58cc-4372-a567-0e02b2c3d479
+      - name: X-Forwarded-For
+        value: 203.0.113.42
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: https://api.insomniaapp.com/v1/projects/789e1234-e89b-12d3-a456-426614174999
+    name: Delete
+    meta:
+      id: req_fbdb62def1c44cf28dbc22b0cc5051c2
+      created: 1758665391530
+      modified: 1758665400391
+      isPrivate: false
+      description: ""
+      sortKey: -1758665391530
+    method: DELETE
+    parameters:
+      - name: softDelete
+        value: "true"
+        disabled: false
+      - name: reason
+        value: cleanup
+        disabled: false
+    headers:
+      - name: Authorization
+        value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.fake.token.value
+      - name: Accept
+        value: application/json
+      - name: X-Audit-User
+        value: admin@example.com
+      - name: X-Audit-Reason
+        value: Removing test project after QA
+      - name: Cookie
+        value: sessionid=abcdef1234567890
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: ""
+    name: New Request
+    meta:
+      id: req_2de89e6560d442639be80328b5aad0b6
+      created: 1758735670430
+      modified: 1758735745410
+      isPrivate: false
+      description: ""
+      sortKey: -1758735670430
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.3.1-alpha-pr-c06fb8b.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_8546adfbdcaf45e588123b1c5d25f89d
+    created: 1758665058961
+    modified: 1758665058961
+environments:
+  name: Base Environment
+  meta:
+    id: env_1b0ba947dbc74a6aae8e36b66fa16acb
+    created: 1758665058954
+    modified: 1758665058954
+    isPrivate: false
