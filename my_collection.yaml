@@ -36,7 +36,7 @@ collection:
     meta:
       id: req_4a969d1ace704217a7d0e3168ef34cf6
       created: 1758762852905
-      modified: 1758804847620
+      modified: 1758900647094
       isPrivate: false
       description: ""
       sortKey: -1758762852906
@@ -49,8 +49,6 @@ collection:
     headers:
       - name: User-Agent
         value: insomnia/11.6.0-beta.0
-      - name: test
-        value: test
     settings:
       renderRequestBody: true
       encodeUrl: true
