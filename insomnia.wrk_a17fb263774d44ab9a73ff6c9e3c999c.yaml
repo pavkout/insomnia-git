@@ -1,0 +1,167 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: Pavlos
+meta:
+  id: wrk_a17fb263774d44ab9a73ff6c9e3c999c
+  created: 1737990620403
+  modified: 1737990620403
+  description: ""
+collection:
+  - url: https://google.com
+    name: New Request
+    meta:
+      id: req_6cf5933b5f7f4c1c8e2c302c5d13a83f
+      created: 1737990949199
+      modified: 1737990961970
+      isPrivate: false
+      description: ""
+      sortKey: -1737990949199
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/10.2.0-beta.4
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: facebook.com
+    name: New Request
+    meta:
+      id: req_b5f2f9598e0e421c97668ba1f80d18e1
+      created: 1737992174222
+      modified: 1737992186127
+      isPrivate: false
+      description: ""
+      sortKey: -1737992174222
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/10.2.0-beta.4
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: instagram.com
+    name: Instagram
+    meta:
+      id: req_cd745fc990ed48868a4cd2899ac5daaf
+      created: 1737992656379
+      modified: 1737992675959
+      isPrivate: false
+      description: ""
+      sortKey: -1737992656379
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/10.2.0-beta.4
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: https://api.example.com/v1/orders
+    name: New Request
+    meta:
+      id: req_cf363c639cc1498f978941195525a81a
+      created: 1770299533064
+      modified: 1770306931606
+      isPrivate: false
+      description: ""
+      sortKey: -1770299533064
+    method: POST
+    body:
+      mimeType: application/json
+      text: '{     "customer": {       "id": "cus_12345",       "email":
+        "userundefined'
+    parameters:
+      - name: include
+        value: items,payments
+        disabled: false
+      - name: debug
+        value: "true"
+        disabled: false
+      - name: Pavlos
+        value: Koutoglou
+        description: ""
+        disabled: false
+    headers:
+      - name: Accept
+        value: application/json
+      - name: Content-Type
+        value: application/json
+      - name: Authorization
+        value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+      - name: User-Agent
+        value: Insomnia/1.0.0
+      - name: X-Request-Id
+        value: 8f2c1d9e-42a1-4c8d-bc21-91e7f8a12abc
+      - name: X-Client-Version
+        value: web-2.3.1
+      - name: Accept-Language
+        value: en-US,en;q=0.9
+      - name: Cache-Control
+        value: no-cache
+      - name: Cookie
+        value: session_id=abc123; theme=dark
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: https://api.example.com/v1/users
+    name: New Request
+    meta:
+      id: req_d9055474b6e246d6af2936d620438931
+      created: 1770299608051
+      modified: 1770299608051
+      isPrivate: false
+      description: ""
+      sortKey: -1770299608051
+    method: GET
+    parameters:
+      - name: limit
+        value: "20"
+        disabled: false
+      - name: offset
+        value: "0"
+        disabled: false
+    headers:
+      - name: Authorization
+        value: Bearer YOUR_TOKEN
+      - name: Accept
+        value: application/json
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_736aba42585031a2750a5708d71d254d0970ec04
+    created: 1770653281875
+    modified: 1770653281875
+environments:
+  name: Base Environment
+  meta:
+    id: env_736aba42585031a2750a5708d71d254d0970ec04
+    created: 1737990620404
+    modified: 1737990620404
+    isPrivate: false
