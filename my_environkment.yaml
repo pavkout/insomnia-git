@@ -1,0 +1,17 @@
+type: environment.insomnia.rest/5.0
+schema_version: "5.1"
+name: P K
+meta:
+  id: wrk_16135e2950fb460588bcb6eb36c0c036
+  created: 1756894347357
+  modified: 1756894347356
+  description: ""
+environments:
+  name: Base Environment
+  meta:
+    id: env_de8a4def420cea8bd137e9cf2834fb46b9d1a75f
+    created: 1756894347360
+    modified: 1758900586615
+    isPrivate: false
+  data:
+    test: test
