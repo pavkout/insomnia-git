@@ -1,0 +1,17 @@
+type: environment.insomnia.rest/5.0
+schema_version: "5.1"
+name: G E J P T
+meta:
+  id: wrk_9ecfdb3a4c0b46fca4cd786e1a3138d9
+  created: 1756405073308
+  modified: 1774276667061
+  description: ""
+environments:
+  name: G E
+  meta:
+    id: env_5f976dff5bc933a8649d3560397ade8dd665abe5
+    created: 1756405073312
+    modified: 1756405094978
+    isPrivate: false
+  data:
+    Genv: genv-2
